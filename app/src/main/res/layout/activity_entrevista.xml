@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#F3F6FC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TalentPrep"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2457A7"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Practica tu entrevista"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#202B3C"
+        android:gravity="center"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/tvNumeroPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregunta 1 de 3"
+        android:textSize="16sp"
+        android:textColor="#2457A7"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/tvPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cuáles son tus principales fortalezas?"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="#202B3C"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:hint="Escribe tu respuesta aquí..."
+        android:gravity="top"
+        android:padding="15dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siguiente pregunta"
+        android:layout_marginTop="25dp" />
+
+</LinearLayout>
